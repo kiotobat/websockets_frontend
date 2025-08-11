@@ -15,7 +15,9 @@ module.exports = [
         ...globals.node,
       },
     },
-    rules: {},
+    rules: {
+      "no-unused-vars": "warn"
+    },
   },
 ];
 
