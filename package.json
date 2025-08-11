@@ -6,8 +6,7 @@
   "scripts": {
     "start": "webpack serve --env development",
     "build": "webpack --env production",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint . --fix"
   },
   "author": "Spartak",
   "license": "MIT",
